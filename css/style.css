@@ -1,0 +1,76 @@
+body{
+    font-family: 'Meiryo UI', sans-serif;
+    background-color: #292929;
+    color:white;
+	/* margin: 2em; */
+	text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+div.mainimage{
+    background-color: black;
+}
+footer{
+    color: white;
+	text-align: center;
+}
+table{
+	border: 2px solid #ffffff;
+	border-collapse: collapse;
+    overflow-x: auto; /* 横スクロール */
+    -webkit-overflow-scrolling: touch; /* スマホでスムーズにスクロールできるように */
+	/*color: #da3c41;*/
+}
+/*th, td{
+
+}*/
+/*img{
+	pointer-events: none;
+}*/
+ul {
+	border: medium solid #ffffff;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #302f2f;
+	align: center;
+}
+li {
+	float: center;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #a9bce2;
+}
+.active {
+	background-color: #da3c41;
+}
+
+
+@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+	h1{
+		font-size: large;
+	}
+	img{
+		width: 80%;
+		height: 80%;
+	}
+}
