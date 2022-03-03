@@ -24,9 +24,12 @@ footer{
 table{
 	border: 2px solid #ffffff;
 	border-collapse: collapse;
-    overflow-x: auto; /* 横スクロール */
-    -webkit-overflow-scrolling: touch; /* スマホでスムーズにスクロールできるように */
+    overflow-x: scroll; /* 横スクロール */
+    -webkit-overflow-scrolling: auto; /* スマホでスムーズにスクロールできるように */
 	/*color: #da3c41;*/
+}
+table.table-desc{
+	text-align: left;
 }
 /*th, td{
 
